@@ -1,0 +1,125 @@
+body{overflow-x: hidden;min-width: 1700px;}
+.banner{height: 924px;width: 1700px;padding: 0 calc((100% - 1700px) / 2);position: relative;overflow: hidden;margin: 45px 0;}
+.banner-img{height: 924px;width: 1700px;padding: 0 calc((100% - 1700px) / 2);position: relative;overflow: hidden;}
+img.swiper{width: 1700px;opacity:0; height: auto;position: absolute;top: 0;left:0;}
+img.swiper:nth-child(1){opacity: 1;}
+.nav-top{z-index: 100; height: 75px;width: 1700px;padding: 0 calc((100% - 1700px) / 2); background: transparent;position: absolute;top: 200px;left: 0;}
+.nav{height: 100%;width: 100%;}
+.nav>a:nth-child(2)>li{color: orange;}
+.nav>a>li{cursor: pointer; height: 75px;line-height: 79px;width: auto;float: left;color: white;font-size: 16px;font-weight: 200;}
+.nav>a>li:nth-child(1){height: 100%;line-height: 75px;width: 100px;margin-left: 75px;}
+.nav>a>li>img{vertical-align: middle;height: 50px;width: 100px;}
+.nav-right{z-index: 1; width: 130px;height: 75px;position: absolute;top: 0;left: 1600px;}
+.nav-right>a>li{color: white; float: left;height: 75px;width: auto;margin-left: 10px;line-height: 79px;}
+.nav-right>a>li>img{height: 30px;vertical-align: middle;}
+.nav-right>a:nth-last-child(1)>li{line-height: 75px;}
+.cirs{height: 10px;width: 90px;position: absolute;bottom: 20px;left: calc(50% - 45px);}
+.cirs>li{cursor: pointer; height: 10px;width: 10px;border-radius: 50%;background: #000;float: left;margin-left: 20px;}
+.cirs>li:nth-child(1){background: white;margin-left: 0;box-shadow: 0 0 15px #000;}
+.main{width: 100%;height: auto;}
+.container,.container1{width: 1280px;height: 550px;margin: 0 auto;padding: 60px 0;position: relative;}
+.bg{z-index: 0; height: 550px;width: 1050px;background: #f1f1f1;position: absolute;top: 60px;left: 0;}
+.content,.content1{z-index: 10;width: 100%;height: 510px;position: relative;}
+.content-left{position: absolute;top: 0;left: 40px;height: 512px;width: 0;overflow: hidden;}
+.content-left>img{height: 512px;width: 768px;display: block;}
+.content-right{height: 367px;width: 0; position: absolute;top: 0;right: 40px; background: transparent;padding: 90px 0;overflow: hidden;}
+.content-right>p:nth-child(1){height: 25px;width: 240px;font-size: 20px;color: #333;font-weight: 400; font-family: Ubuntu;}
+.content-right>p:nth-child(2){height: 90px;width: 240px;font-size: 60px;font-weight: 400;}
+.content-right>p:nth-child(3){height: 90px;width: 367px;font-size: 14px;font-weight: 400;font-family: 微軟正黑體;line-height: 30px;}
+.content-right>p:nth-child(4){cursor: pointer; height: 20px;width: 90px;padding: 14px 20px;background: orange;text-align: center;margin-top: 40px;color: white;}
+.bg1{z-index: 0; height: 550px;width: 1050px;background: #f1f1f1;position: absolute;top: 57px;right: 0;}
+.content-left1{position: absolute;bottom: 0;right: 40px;height: 0;width: 768px;overflow: hidden;}
+.content-left1>img{height: 512px;width: 768px;display: block;}
+.content-right1{height: 0;width: 426px; position: absolute;top: 0;left: 40px; background: transparent;margin: 90px 0;overflow: hidden;}
+.content-right1>p:nth-child(1){height: 25px;width:426px;font-size: 20px;color: #333;font-weight: 400; font-family: Ubuntu;}
+.content-right1>p:nth-child(2){height: 90px;width: 240px;font-size: 60px;font-weight: 400;}
+.content-right1>p:nth-child(3){height: 90px;width: 367px;font-size: 14px;font-weight: 400;font-family: 微軟正黑體;line-height: 30px;}
+.content-right1>p:nth-child(4){cursor: pointer; height: 20px;width: 90px;padding: 14px 20px;background: orange;text-align: center;margin-top: 40px;color: white;}
+.container2,.container4{height: 435px;width: 1260px;padding: 45px 40px;margin: 0 auto;position: relative;}
+.change-swiper-left{float: left; height: 435px;width: 840px;overflow: hidden;position: relative;}
+.suite{height: 435px;width: 1120px;position: absolute;top: 0;left: 0;}
+.suite>li{float: left;height: 390px;width: 250px;padding: 15px;position: relative;}
+.suite>li>div>img{display: block;width: 250px;height: 310px;position: relative;left: 0;top: 0;}
+.change-swiper-right{ width: 350px;height: 160px;float: right; margin-top:100px;border-top: 5px solid orange;border-bottom: 5px solid orange;}
+.suite>li>div{height: 310px;width: 250px;overflow: hidden;position: relative;}
+.suite>li>p:nth-child(2){position: absolute;width: 250px; bottom: 30px; text-align: center;height: 18px;padding: 10px 0 8px;color: #333;font-family: 微軟正黑體;font-size: 14px;}
+.suite>li>p:nth-child(3){position: absolute;width: 250px; bottom: 60px; text-align: center;height: 15px;font-size: 12px;font-family: 微软雅黑;color: #999;font-weight: 400;}
+.change-swiper-right>p:nth-child(1){height: 25px;font-family: Ubuntu;font-size: 20px;color: #333;margin: 10px 0;}
+.change-swiper-right>p:nth-child(2){height: 90px;font-size: 60px;color: #333;}
+.btn-left{user-select: none; cursor: pointer; text-align: center; font-size: 50px;color: white; height: 70px;width: 70px;background: orange;position: absolute;bottom: 155px;left: -30px;}
+.btn-right{user-select: none; cursor: pointer; text-align: center;font-size: 50px;color: white;height: 70px;width: 70px;background: orange;position: absolute;bottom: 225px;left: -30px;}
+.container3{width: 1400px;height: 764px;margin: 0 auto;padding: 100px 40px;overflow: hidden;}
+.con3-main{height: 0;width: 100%;overflow: hidden;}
+.brand-top{width: 1400px;height: 382px;}
+.brand-bottom{width: 1400px;height: 382px;}
+.brand-left{margin-right: 88px;margin-left: 28px; width: 350px;height: 210px;float: left; margin-top:100px;border-top: 5px solid orange;border-bottom: 5px solid orange;}
+.brand-left>p:nth-child(1){height: 25px;font-family: Ubuntu;font-size: 20px;color: #333;margin: 10px 0;}
+.brand-left>p:nth-child(2){height: 90px;font-size: 60px;color: #333;}
+.brand-left>p:nth-child(3){font-size: 14px;color: #333;font-family: 微軟正黑體;}
+.brand-top>img{display: block;width: 466px;height: 382px;float: left;}
+.brand-bottom>img{display: block;width: 466px;height: 382px;float: left;}
+.brand-right{height: 382px;width: 406px;background: orange;float: left;padding-left: 60px;}
+.brand-right>p{font-size: 14px;font-weight: 400;font-family: 微軟正黑體;line-height: 30px;text-align: left;color: white;}
+.brand-right>p:nth-child(1){font-size: 28px;font-weight: 400;font-family: 微软雅黑;color: white;margin: 50px 0;}
+.container4>.change-swiper-right{float: left;}
+.container4>.change-swiper-left{float: right;}
+.container4>.btn-left{right: -30px;left: unset;}
+.container4>.btn-right{right: -30px;left: unset;}
+.container5{width: 1400px;height: 764px;margin: 0 auto;padding: 100px 40px;overflow: hidden;}
+.con5-left{height: 508px;width: 590px;float: left;position: relative;top: 300px;left: 0;}
+.con5-right{height: 508px;width: 590px;float: right;position: relative;top: 300px;left: 0;}
+.bg2{height: 508px;width: 400px;background: #f1f1f1;position: absolute;left: 0;top: 0;}
+.wanqiu,.xiehou{height: 508px;width: 590px;padding: 55px 0;}
+.wanqiu>img{display: block;position: relative;z-index: 1;padding: 0 60px;float: left;width: 234px;height: auto;}
+.xiehou>img{display: block;position: relative;z-index: 1;padding: 0 60px;float: left;width: 234px;height: auto;}
+.des{width: 175px;height: 398px; position: relative;z-index: 1;float: left;}
+.des>p{color: rgb(103, 104, 104);font-size: 15px;font-weight: 400;font-family: 微軟正黑體;line-height: 30px;}
+.des>p:nth-child(1){font-size: 20px;font-weight: 400;font-family: Ubuntu;line-height: 20px;}
+.des>p:nth-child(2){font-family: 微软雅黑;font-size:60px;font-weight:normal;font-style:normal;color:#333333;line-height: 100px;}
+.des>p:nth-child(3){padding-top: 40px;}
+.des>p:nth-last-child(1){cursor: pointer; display: block;width: 90px;height: 20px;padding: 14px 20px;color: white;background: orange;line-height: 20px;margin-top: 50px;}
+.bottom>p{color: rgb(153, 153, 153); text-align: center;font-size: 15px;font-family: 微軟正黑體;line-height: 35px;padding-bottom: 30px;}
+.fixed-nav{display: none; height: 200px;width: 200px;position: fixed;bottom: 100px;right: -150px;}
+.fixed-nav>ul{position: relative;}
+.fixed-nav>ul>li>img{display: block;float: left;}
+.fixed-nav>ul>li{color: white; position: relative;right: 0; text-align: center; width: 280px;height: 30px;background: #f1f1f1;padding: 10px;line-height: 30px;}
+.up{background: orange;width: 30px;padding: 10px;position: absolute;}
+.up>img{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

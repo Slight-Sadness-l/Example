@@ -1,0 +1,54 @@
+.nav-top{background: transparent;z-index: 5; height: 75px;width: 1700px;padding: 0 calc((100% - 1700px) / 2);position: absolute;top: 0;left: 0;}
+.nav{height: 100%;width: 100%;}
+.nav>a>li{cursor: pointer; height: 75px;line-height: 79px;width: auto;float: left;color: white;font-size: 16px;font-weight: 200;}
+.nav>a>li:nth-child(1){height: 100%;line-height: 75px;width: 100px;margin-left: 75px;}
+.nav>a>li>img{vertical-align: middle;height: 50px;width: 100px;}
+.nav-right{z-index: 1; width: 130px;height: 75px;position: absolute;top: 0;left: 1600px;}
+.nav-right>a>li{color: white; float: left;height: 75px;width: auto;margin-left: 10px;line-height: 79px;}
+.nav-right>a>li>img{height: 30px;vertical-align: middle;}
+.nav-right>a:nth-last-child(1)>li{line-height: 75px;}
+.banner{height: 75px;width: 1800px;overflow: hidden;margin: 0 auto;}
+body{overflow-x: hidden;}
+.footer{height: 365px; width: 1800px;padding: 20px 0; margin: 0 auto;background: url(../images/shopbg.jpg) no-repeat;/* overflow: hidden; */}
+.contact{height: 283px;width: 1200px;margin: 32px auto;}
+.contact>div{width: 329px;height: 100%;float: left;}
+.contact>div:nth-child(2){width: 658px;}
+.contact-left>p:nth-child(1){font-family: Ubuntu;font-size: 20px;font-weight: normal;font-style: normal;color: #f9f9f9;}
+.contact-left>p:nth-child(2){font-size: 40px;color: white;line-height: 100px;}
+.contact-left>p:nth-child(3){font-size: 16px;color: #777;font-family: 黑体;padding-top: 30px;}
+.contact-left>p:nth-child(4){padding-top: 20px;}
+.contact-left>p:nth-child(4)>img{height: 16px;width: 16px;display: block;float: left;margin-left: 20px;}
+.contact-right>ul{width: 329px;height: 148px;float: left;}
+.contact-right>ul>li{height:40px;font-size: 14px;font-family: 微軟正黑體; color: white;line-height: 40px;}
+.contact-right>ul>li:nth-child(1){font-family: 微軟正黑體; color: rgb(255, 255, 255);line-height: 35px;font-size: 20px;}
+.container{width: 1800px;height: auto;margin: 0 auto;min-height: 600px;background-color: #f6f6f6;position: relative;}
+ul.title{width: 1800px;height: 30px;border: 1px solid #ddd;margin-top: 40px;}
+ul.title>li{height: auto;padding: 4px 12px;float: left;}
+ul.title>li:nth-child(1){width: 672px;}
+ul.title>li:nth-child(2){width: 200px;}
+ul.title>li:nth-child(3){width: 347px;}
+ul.title>li:nth-child(4){width: 209px;}
+ul.title>li:nth-child(5){width: 200px;}
+.goods{width: 1800px;height: 100px;line-height: 100px; border: 1px solid #ddd;margin-top: 40px;}
+.goods>li{height: auto;padding: 4px 12px;float: left;}
+.goods>li:nth-child(1){width: 672px;}
+.goods>li:nth-child(2){width: 200px;}
+.goods>li:nth-child(3){width: 347px;}
+.goods>li:nth-child(4){width: 209px;}
+.goods>li:nth-child(5){width: 200px;cursor: pointer;}
+.goods>li:nth-child(5):hover{color: orange;}
+.des{height: 40px;line-height: 20px;font-size: 14px;width: 60%;margin-left: 15%;padding: 4% 10%;}
+.goods>li>img{height: 90px;width:90px;display: block;float: left;}
+.width{font-size: 12px;color: rgb(119, 119, 119);}
+.jiesuan{position: absolute;bottom: 0;left: 0; height: 100px;padding: 5px;border: 1px solid #ddd;margin-top: 30px;width: calc(100% - 10px);}
+.jiesuan>p:nth-child(1){font-size: 14px;width: 125px;height: 30px;position: absolute;right: 0;top: 10px;}
+.jiesuan>p:nth-child(2){font-size: 14px;color: #333; width: 125px;height: 30px;position: absolute;right: 0;top: 40px;}
+.jiesuan>p:nth-child(3){cursor: pointer;line-height: 30px; background: orange;text-align: center;color: white;padding: 5px;width: 125px;height: 30px;position: absolute;right: 0;top: 70px;}
+.reduce,.add,.num{user-select: none;cursor: pointer; text-align: center; height: 46px;width: 38px;border: 1px solid rgb(232, 232, 232);display: inline-block;line-height: 46px;}
+.expecial-p:hover{background: #000000;}
+.bottom{height: 35px;width: 100%;}
+.bottom>p{color: rgb(153, 153, 153); text-align: center;font-size: 15px;font-family: 微軟正黑體;line-height: 35px;}
+.kong{ height: 600px;width: 1800px;position: relative;display: none;position: absolute;}
+.kong>p{cursor: pointer;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto; height: 50px;width: 200px;background: orange;color: white; line-height: 50px;text-align: center;}
+.kong>p:hover{background-color: black;}
+

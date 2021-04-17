@@ -1,0 +1,77 @@
+.nav-top{background: transparent;z-index: 5; height: 75px;width: 1700px;padding: 0 calc((100% - 1700px) / 2);position: absolute;top: 0;left: 0;}
+.nav{height: 100%;width: 100%;}
+.nav>a:nth-child(6)>li{color: orange;}
+.nav>a>li{cursor: pointer; height: 75px;line-height: 79px;width: auto;float: left;color: white;font-size: 16px;font-weight: 200;}
+.nav>a>li:nth-child(1){height: 100%;line-height: 75px;width: 100px;margin-left: 75px;}
+.nav>a>li>img{vertical-align: middle;height: 50px;width: 100px;}
+.nav-right{z-index: 1; width: 130px;height: 75px;position: absolute;top: 0;left: 1600px;}
+.nav-right>a>li{color: white; float: left;height: 75px;width: auto;margin-left: 10px;line-height: 79px;}
+.nav-right>a>li>img{height: 30px;vertical-align: middle;}
+.nav-right>a:nth-last-child(1)>li{line-height: 75px;}
+.banner{height: 75px;width: 1800px;overflow: hidden;margin: 0 auto;}
+body{overflow-x: hidden;}
+.container{width: 1200px;margin: 0 auto;padding: 20px 40px;height: auto;}
+.bottom>p{color: rgb(153, 153, 153); text-align: center;font-size: 15px;font-family: 微軟正黑體;line-height: 35px;padding-bottom: 30px;}
+.bottom>p{color: rgb(153, 153, 153); text-align: center;font-size: 15px;font-family: 微軟正黑體;line-height: 35px;padding-bottom: 30px;}
+.location{height: 20px;width: 1200px;margin: 0 auto;padding: 20px 0; color: #333;font-size: 14px;font-family: 微软雅黑;line-height: 20px;}
+.location>a{color: #f9b418;font-size: 14px;font-family: 微软雅黑;}
+.location>span{color: #333;font-size: 14px;font-family: 微软雅黑;padding: 5px;}
+span.title{color: #333;font-size: 14px;font-family: 微软雅黑;line-height: 20px;}
+.shop{height: 500px;width: 1200px;margin: 0 auto;padding: 0 0;}
+.shop-left{height: 400px;width: 570px;float: left;position: relative;}
+.shop-left>img{height: 400px;width: 570px;display: block;}
+.shop-right{height: 468px;width: 571px;float: right;}
+.shop-right>p{margin-bottom: 20px;}
+.shop-right>p:nth-child(1){font-size: 30px;font-weight: normal;color: #353535;font-family: 微軟正黑體;height: 40px;width: 700px;line-height: 40px;}
+.shop-right>p:nth-child(2){height: 3px;width: 80px;background-color: #c4c4c4;margin-top: 15px;}
+.shop-right>p:nth-child(3){height: 30px;line-height: 30px;width: 100%;font-size: 30px;color: #353535;font-weight: 400;}
+.shop-right>p:nth-child(4){height: 90px;line-height: 30px;color: #666;font-size: 14px;font-family: 微軟正黑體;}
+.shop-right>p:nth-child(5){user-select: none; color: #333;font-family: 微軟正黑體;}
+.shop-right>p:nth-child(5)>span:nth-child(1){cursor: pointer; height: 20px;width: 48px;padding: 5px 12px;border: 1px solid #f9b418;margin-left: 10px;color: #f9b418;}
+.shop-right>p:nth-child(5)>span:nth-child(2){cursor: pointer;height: 20px;width: 48px;padding: 5px 12px;border: 1px solid rgb(102, 102, 102);margin-left: 10px;color: rgb(102, 102, 102);}
+.shop-right>p:nth-child(6){height: 46px;line-height: 46px;}
+.click-btn{user-select: none; cursor: pointer; color: white;background: #353535;width: 90px;height: 46px;padding:0 50px;display: inline-block;font-size: 14px;line-height: 46px;text-align: center;}
+.reduce,.add,.num{user-select: none;cursor: pointer; text-align: center; height: 46px;width: 38px;border: 1px solid rgb(232, 232, 232);display: inline-block;}
+.reduce{margin-left: 10px;}
+.shop-right>p:nth-child(7){font-size: 15px;font-weight: normal;color: #777777;font-family: 微軟正黑體; height: 20px;width: 100%;padding: 7px 0;border-top: 1px dotted #ddd;}
+.shop-right>p:nth-child(7)>a{color: #f9b418;font-size: 14px;}
+.des{padding-bottom: 20px; height: 620px;width: 1200px;margin: 0 auto;border-top: 1px solid #eee;border-bottom: 1px solid #eee;}
+.click-btn:hover{background: #f9b418;}
+.des-ul{height: 45px;width: 100%;line-height: 45px;}
+.des-ul>li{height: 20px;width: 120px;float: left;font-size: 16px;font-weight: bold;color: #999999;font-family: 微軟正黑體;text-align: center;}
+.des-ul>li:nth-child(1){border-top: 4px solid rgb(53, 53, 53);}
+.more{height: 553px;margin-top: 20px;}
+.relative{height: 300px;width: 100%;}
+.relative>h2{text-align: left;padding: 10px 0;}
+.reproducts>li{float: left; width: 283px;height: 260px;padding-right: 15px;padding-right: 15px;}
+.reproducts>li>img{height: 200px;width: auto;display: block;}
+.reproducts>li>p{text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;word-wrap: break-word;
+overflow:hidden; height: 20px;margin: 10px 0;color: #333;font-family: 微軟正黑體;font-size: 14px;}
+.mask{height: 100px;width: 100px;position: absolute;top: 0;left: 0;background: rgba(1,1,1,.5);display: none;}
+.datu{position: absolute;right: -625px;top: 0;height: 400px;width: 570px;overflow: hidden;display: none;}
+.datu>img{display: block;height: 800px;width: auto;position: relative;top: 0;left: 0;}
+.max-mask{height: 100%;width: 100%;background: rgba(12,12,12,.5);position: fixed;top: 0;left: 0;display: none;z-index: 9;}
+.goshop{display: none; height: 100%;width: 300px;padding: 10px 20px;position: fixed;right: -300px;top: 0;background: white;z-index: 10;}
+.shop-title{height: 70px;width: 100%;text-align: center;background: #F9B418;color: white;line-height: 70px;}
+.bottom-btn{height: 152px;width: 260px;padding: 20px 40px 40px;position: absolute;right: 0;bottom: 0;}
+.bottom-btn>p:nth-child(1){font-size: 14px; height: 15px;width: 100%;padding: 10px 0;margin: 10px 0 5px;text-align: center;}
+.bottom-btn>a:nth-child(2){border: 1px solid rgb(249, 180, 24); font-size: 14px; display: block;height: 14px;padding: 12px 0;width: 100%;text-align: center;line-height: 14px;color: #f9b418;}
+.bottom-btn>a:nth-child(2){border: 1px solid rgb(249, 180, 24); font-size: 14px; display: block;height: 14px;padding: 12px 0;width: 100%;text-align: center;line-height: 14px;color: #f9b418;}
+.bottom-btn>a:nth-child(3){background: rgb(249, 180, 24); font-size: 14px; display: block;height: 14px;padding: 13px 1px;width: 100%;text-align: center;line-height: 14px;color: white;margin: 5px 0;}
+.shopinfo{width: 100%;height: auto;}
+.shopinfo>li{height: 84px;width: 260px;padding: 15px 20px;border-bottom: 1px solid #ddd;}
+.shopinfo>li>img{height: 63px;width: 83px;display: block;float: left;}
+.goshop-right{width: 153px;height: 84px;padding-left: 20px;float: left;}
+
+.goshop-right>p:nth-child(1){position: relative; font-size: 14px;font-family: 微软雅黑;line-height: 14px;height: 28px;}
+.closeX{cursor: pointer; height: 14px;width: 14px;position: absolute;top: 10;right: 40px;}
+.goshop-right>p:nth-child(2){font-family:黑体;font-size:12px;line-height: 36px;color: #777;}
+.goshop-right>p:nth-child(3){font-family:黑体;font-size: 14px;color: #777;}
+.remove{position: absolute;top: 0;right: -14px;width: 14px;height: 14px;cursor: pointer;}
+
+
+
+
+
+
+

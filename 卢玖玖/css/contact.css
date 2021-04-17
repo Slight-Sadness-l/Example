@@ -1,0 +1,32 @@
+.nav-top{background: transparent;z-index: 5; height: 75px;width: 1700px;padding: 0 calc((100% - 1700px) / 2);position: absolute;top: 0;left: 0;}
+.nav{height: 100%;width: 100%;}
+.nav>a:nth-child(7)>li{color: orange;}
+.nav>a>li{cursor: pointer; height: 75px;line-height: 79px;width: auto;float: left;color: white;font-size: 16px;font-weight: 200;}
+.nav>a>li:nth-child(1){height: 100%;line-height: 75px;width: 100px;margin-left: 75px;}
+.nav>a>li>img{vertical-align: middle;height: 50px;width: 100px;}
+.nav-right{z-index: 1; width: 130px;height: 75px;position: absolute;top: 0;left: 1600px;}
+.nav-right>a>li{color: white; float: left;height: 75px;width: auto;margin-left: 10px;line-height: 79px;}
+.nav-right>a>li>img{height: 30px;vertical-align: middle;}
+.nav-right>a:nth-last-child(1)>li{line-height: 75px;}
+.banner{display: block;margin: 0 auto;height: auto;width: 1800px;}
+.banner>img{display: block;height: auto;width: 1800px;}
+.container{height: 476px;width: 1200px;padding: 0 40px;margin: 0 auto;}
+.con-left{width: 590px;height: 476px;float: left;}
+.con-right{width: 590px;height: 476px;float: right;}
+.fixed-nav{display: none; height: 200px;width: 200px;position: fixed;bottom: 100px;right: -150px;}
+.fixed-nav>ul{position: relative;}
+.fixed-nav>ul>li>img{display: block;float: left;}
+.fixed-nav>ul>li{color: white; position: relative;right: 0; text-align: center; width: 200px;height: 30px;background: #f1f1f1;padding: 10px;line-height: 30px;}
+.up{background: orange;width: 30px;padding: 10px;position: absolute;}
+.up>img{display: block;}
+.con-left>p{height: 57px;padding: 20px 0;width: 100%;line-height: 24px;color: #999;font-size: 14px;font-family: 微软雅黑;}
+.con-left>p>img{display: block;float: left;height: 53px;width: 53px;margin-right: 20px;}
+.con-left>p:nth-child(1){font-size: 18px;color: #333;line-height: 57px;font-family: 微软雅黑;font-weight: 400;}
+.con-left>p:nth-last-child(1){font-size: 14px;font-family: 微軟正黑體;color: #666;}
+.con-right>p:nth-child(1){font-size: 18px;color: #333;line-height: 57px;font-family: 微软雅黑;font-weight: 400;padding: 20px 0;}
+.con-right>input{height: 27px;width: 100%;line-height: 27px;padding: 10px 20px;display: block;outline: none;border: 1px solid #D3D3D3;margin: 20px 0;}
+.con-right>textarea{height: 47px;width: 100%;padding: 20px;display: block;outline: none;resize: none;border: 1px solid #D3D3D3;}
+.con-right>button{cursor: pointer; display: block;width: 110px;height: 47px;padding: 14px 20px;color: white;background: orange;line-height: 20px;margin-top: 50px;border: none;}
+.con-right>button:hover{background: black;}
+#allmap{height: 800px ;width: 1800px;display: block;margin: 0 auto;}
+.bottom>p{color: rgb(153, 153, 153); text-align: center;font-size: 15px;font-family: 微軟正黑體;line-height: 35px;padding-bottom: 30px;}

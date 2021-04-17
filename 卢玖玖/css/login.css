@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.cavs{
+    z-index:1;
+    position: fixed;
+    width:95%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background: url(../images/loginimg.jpg) no-repeat 0 0/100% auto;
+    background-size: 100% 100%;
+
+}
+
+
+
+.loginmain{
+    background: rgba(0, 0, 0,.3);
+    width: 540px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 100px 40px 40px 40px;
+    box-shadow: -15px 15px 15px rgba(6, 17, 47, 0.7);
+    z-index: 99999;
+}
+.login-title{
+    color: white;
+    height: 60px;
+    font-size:20px;
+    text-align: center;
+    margin-top: -20px;
+}
+.login-con{
+    height: 208px;
+    position: absolute;
+    left: 0;
+    width: 80%;
+    margin:0 10%;
+}
+.login-user{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    z-index: 1;
+    left: 36px;
+    top: 8px;
+    opacity: 1;
+}
+.login-con input{
+    width: calc(100% - 130px);
+    margin-top: -2px;
+    background: rgba(57, 61, 82, 0);
+    left: 0;
+    padding: 10px 65px;
+    border-top: 2px solid rgba(57, 61, 82, 0);
+    border-bottom: 2px solid rgba(57, 61, 82, 0);
+    border-right: none;
+    border-left: none;
+    outline: none;
+    font-family: 'Gudea', sans-serif;
+    box-shadow: none;
+    color: white !important;
+}
+.login-pwd, .login-yan{
+    position: relative;
+}
+/*
+.login-pwd .icon{
+    position: absolute;
+    z-index: 1;
+    left: 36px;
+    top: 8px;
+    opacity: .5;
+}*/
+.login-btn{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.login-btn input{
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    width: 80%;
+    transition-property: background,color;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+.login-btn input:hover{
+    color: white !important;
+    background: #e0e0e0;
+    cursor: pointer;
+    -webkit-transition-property: background,color;
+    transition-property: background,color;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+input::-webkit-input-placeholder{
+				color:white;
+			}
+.nav-top{background: transparent;z-index: 5; height: 75px;width: 1700px;padding: 0 calc((100% - 1700px) / 2);position: absolute;top: 0;left: 0;}
+.nav{height: 100%;width: 100%;}
+.nav-right>a:nth-child(1)>li{color: orange;}
+.nav>a>li{cursor: pointer; height: 75px;line-height: 79px;width: auto;float: left;color: white;font-size: 16px;font-weight: 200;}
+.nav>a>li:nth-child(1){height: 100%;line-height: 75px;width: 100px;margin-left: 75px;}
+.nav>a>li>img{vertical-align: middle;height: 50px;width: 100px;}
+.nav-right{z-index: 1; width: 130px;height: 75px;position: absolute;top: 0;left: 1600px;}
+.nav-right>a>li{color: white; float: left;height: 75px;width: auto;margin-left: 10px;line-height: 79px;}
+.nav-right>a>li>img{height: 30px;vertical-align: middle;}
+.nav-right>a:nth-last-child(1)>li{line-height: 75px;}
+.tips,.tips1{display: none; position: absolute;top: 10px;left: 150px;color: red;font-size: 14px;}
+.usertip{position: fixed;bottom: 100px;text-align: center;color: white;width: 100%;height: 20px;line-height: 20px;font-size: 14px;left: 0;}
